@@ -2,7 +2,14 @@
 
 ## Running the app
 Open the 'index.html' file located in the root of the application folder. 
+* index.html
+* js
+  - savings_calculator.js
+  - ui.js
 ## Running the tests
+* spec
+  - savings_calculator-spec.js
+
 ### Prerequisites
 Install Node.js
 ```
