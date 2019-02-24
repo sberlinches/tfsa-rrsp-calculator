@@ -180,3 +180,11 @@ class RRSP extends savingsAccount {
 function roundNumber(num, pos = 2) {
     return Math.round( num * eval('1e' + pos) ) / eval('1e' + pos);
 }
+
+// Export classes to be used in spec testing file
+if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
+    module.exports = {
+        RRSP: RRSP,
+        TFSA: TFSA
+    }
+}

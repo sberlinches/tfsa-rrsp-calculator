@@ -1,0 +1,17 @@
+{
+  "name": "tfsa-rrsp-calculator",
+  "version": "1.0.0",
+  "description": "TFSA vs RRSP Calculator",
+  "license": "ISC",
+  "main": "js/savings_calculator.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sberlinches/tfsa-rrsp-calculator.git"
+  },
+  "dependencies": {
+    "jasmine": "^3.3.1"
+  }
+}
